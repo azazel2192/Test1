@@ -48,7 +48,7 @@ toast_text = toast_element.text
 
 assert name_element.get_attribute("value") == new_name
 assert "Settings successfully saved" in toast_text
-
+print("success")
 dr.close()
 
 
