@@ -14,7 +14,7 @@ def wait_of_element_located(xpath):
     return element
 
 
-dr = webdriver.Chrome(executable_path="C:\driver\chromedriver.exe")
+dr = webdriver.Chrome(executable_path="C:\driver\chromedriver.exe")  # указать путь к вебдрайверу
 
 login = "dsy06067@xcoxc.com"
 password = "123123Ee"
